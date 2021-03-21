@@ -8,7 +8,7 @@ def home():
 
 
 @app.route("/<query>", methods=['GET'])
-def result(query):
+def results(query):
     return render_template('results.html', title=query)
 
 
